@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(219, 207, 161);
+    font-family: Roboto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 2rem;
+    border-radius: .8rem;
+    background-color: white;
+    max-width: 35rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.title{
+    font-size: 1.5rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    width: 100%;
+    gap: .6rem;
+}
+
+.button{
+    background-color: rgb(218, 222, 228);
+    padding: .8rem .65rem;
+    border-radius: .35rem;
+    border: 0;
+    font-weight: 700;
+}
+
+.save-button{
+    background-color: rgb(21, 106, 209);
+    color: white;
+    box-shadow: 0rem 0rem .8rem rgb(125, 147, 220);
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.text-input{
+    padding: .5rem;
+    border-radius: .3rem;
+    border: .05rem solid rgb(188, 186, 186);
+}
+
+.result-message{
+    background-color: rgb(243, 244, 245);
+    border-radius: .3rem;
+    border: .05rem solid rgb(224, 224, 224);
+    width: 100%;
+    padding: 1rem;
+}
+
+.result-table{
+    background-color: rgb(243, 244, 245);
+    border-radius: .3rem;
+    border: .05rem solid rgb(224, 224, 224);
+    width: 100%;
+    padding: 1rem;
+}
