@@ -7,6 +7,7 @@ const express = require("express");
 
 const app = express();
 const PORT = process.env.PORT; 
+app.use(express.json());
 
 const publicPath = path.join(__dirname, "..", "public");
 const pagesPath = path.join(publicPath, "pages");
